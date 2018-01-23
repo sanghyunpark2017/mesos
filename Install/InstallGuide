@@ -1,23 +1,6 @@
 
-############################################################
-#Installing Mesos on CentOS 7 and RHEL 7 from packages
-############################################################
-
-systemctl disable firewalld
-systemctl stop firewalld
-
-#add the Mesosphere repository
-sudo rpm -Uvh http://repos.mesosphere.io/el/7/noarch/RPMS/mesosphere-el-repo-7-1.noarch.rpm  
-
-# install Mesos and ZooKeeper:
-sudo yum -y install mesos mesosphere-zookeeper
-
-#start service
-systemctl start mesos-maskter
-systemctl start mesos-slave
-
-
-http://x.x.x.x:5050
+#설치가이드
+http://mesos.apache.org/documentation/latest/building/
 
 
 
