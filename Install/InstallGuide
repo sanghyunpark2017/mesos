@@ -2,6 +2,11 @@
 #설치가이드
 http://mesos.apache.org/documentation/latest/building/
 
+...
+..
+.
+
+make -j 4 V=0 
 
 
 
